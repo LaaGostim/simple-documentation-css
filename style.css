@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+
+  background-color: #f5f5f5;
+  color: #242424;
+
+  /*
+  background-color: #242424;
+  color: #f5f5f5;
+  */
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 30em;
+  height: 100%;
+  border-right: solid;
+  border-color: #cd4af8;
+}
+
+#navbar li {
+  border: none;
+  list-style: none;
+  position: relative;
+  width: 100%;
+
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+#navbar a {
+  transition: 0.2s ease-out;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  color: #6d3cc7;
+}
+
+#navbar a:hover {
+  transition: 0.2s ease-in;
+  color: #cd4af8;
+}
+
+.navbar-header {
+  margin: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+#main {
+  text-align: left;
+  margin: 0;
+
+  position: absolute;
+  margin-left: 32rem;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.element-container {
+  padding-bottom: 2rem;
+}
+
+#what-to-know li {
+  padding-bottom: 0.6rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.item {
+  margin: 1rem;
+  max-width: 250px;
+}
